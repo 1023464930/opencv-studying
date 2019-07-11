@@ -2,7 +2,7 @@
 
 2019.7.11
 
-installing opencv based on windows & python 3.7.4
+install opencv based on windows & python 3.7.4
 
 1.build path in system environment variable for python and pip
  #my settings
@@ -19,5 +19,10 @@ installing opencv based on windows & python 3.7.4
    pip3 install opencv-python
    
 4.we can test opencv by the code in test-opencv.py
+
+5.display camera
+   we need to install matplotlib by pip under this python file:
+     python -m pip install matplotlib
+   use the code in test-camera.py 
 
 
