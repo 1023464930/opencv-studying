@@ -44,5 +44,9 @@ install opencv based on windows & python 3.7.4
    haarcascades folder should be downloaded to the same path of python file
    
    the python file will create mp4 video. inorder to safely save mp4 file, press 'q' to stop python.
+   
+ 7.added new python file face-capture-2.py
+ 
+   see more in description
 
 
