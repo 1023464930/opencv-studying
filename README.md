@@ -34,5 +34,10 @@ install opencv based on windows & python 3.7.4
      python -m pip install matplotlib
      
    use the code in test-camera.py 
+ 6.test face capture
+   
+   use the code in face-capture.py
+   
+   haarcascades folder should be downloaded to the same path of python file
 
 
