@@ -49,4 +49,38 @@ install opencv based on windows & python 3.7.4
  
    see more in description
 
+2019.7.13
 
+start to setup opencv and srevo-control driver on raspberrypi 3b+ 
+
+8.update linux software
+
+  sudo apt-get update
+
+  sudo apt-get upgrade
+  
+9.setup opencv
+
+  sudo apt-get opencv-python
+ 
+10.servo-control in order to achieve face tracking
+
+  PCA9685：
+  
+  GND -> RPi GND（pin9）
+  SCL -> RPi SCL1（pin5）
+  SDA -> RPi SDA1（pin3）
+  VCC -> RPi 3.3V （pin1）
+  V+ -> RPi 5V（or power）
+  
+  open I2C:
+  
+  sudo raspi-config
+  
+  Interfacing Options 
+  
+  setup adafruit_python_pca9685:
+  
+  sudo pip install adafruit-pca9685
+  
+  servo-control.py:a sample
