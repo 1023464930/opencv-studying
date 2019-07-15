@@ -68,9 +68,13 @@ start to setup opencv and srevo-control driver on raspberrypi 3b+
   PCA9685：
   
   GND -> RPi GND（pin9）
+  
   SCL -> RPi SCL1（pin5）
+  
   SDA -> RPi SDA1（pin3）
+  
   VCC -> RPi 3.3V （pin1）
+  
   V+ -> RPi 5V（or power）
   
   open I2C:
